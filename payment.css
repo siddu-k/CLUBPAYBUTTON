@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #009688;
+    color: white;
+}
+
+.hero .t1 {
+    font-size: 1.2em;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero .name {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Support Club Section */
+#support-club {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#support-club h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#support-club p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+#support-club h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #555;
+}
+
+#support-club ul {
+    margin-bottom: 20px;
+}
+
+#support-club ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Razorpay Button */
+form {
+    margin-top: 3000px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 30px 20px;
+    }
+
+    .hero .name {
+        font-size: 2.5em;
+    }
+
+    #support-club {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    #support-club h2 {
+        font-size: 1.8em;
+    }
+
+    #support-club h3 {
+        font-size: 1.3em;
+    }
+
+    #support-club p,
+    #support-club ul li {
+        font-size: 1em;
+    }
+}

@@ -3,64 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Integration Example</title>
-    <style>
-        /* Basic style for the page */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-        header {
-            background-color: #0073e6;
-            color: white;
-            padding: 15px 0;
-            text-align: center;
-        }
+    <link rel="icon" type="image/png" href="assets\sidlogoico.ico" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets\sidlogoico32.ico" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="assets\sidlogoico32.ico">
+    <title>SID.WEB</title>
+    <link rel="stylesheet" href="styles.css">
 
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        iframe {
-            width: 100%;
-            height: 600px;  /* Adjust the height to fit the payment form */
-            border: none;
-        }
-    </style>
 </head>
 <body>
+  
 
-    <!-- Header Section -->
-    <header>
-        <h1>Secure Payment Page</h1>
-        <p>Complete your transaction below</p>
-    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <p class="t1">WELCOME TO</p>
+      <h class="name">PYDAH CLUBS</h>
+     <!--<p class="abtme">And I'm a <span id="role">Editor</span><span class="cursor">|</span></span></p>--> 
+      <p class="t2">Our college clubs aim to inspire creativity and teamwork. We host events that encourage growth and innovation. Join us to explore your passions and connect with others. </p>
+       
+      
+      <button onclick="window.location.href='payment.html';">
+        REGESTER NOW
+    </button>  
+      <!--     
+      <div class="social-media">
+        <a href="https://siddu.start.page/"><i class='bx bxl-facebook' ></i></a>
+        <a href="https://siddu.start.page/"><i class='bx bxl-twitter' ></i></a>
+        <a href="https://siddu.start.page/"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://siddu.start.page/"><i class='bx bxl-linkedin' ></i></a>
+          </div>
+<div class="rectangle">
+    <div class="rectangle2">
+        <img src="assets\sidlogo.png" alt="Description of the image" width="200" height="150" class="abtpng">
+      </div>
+  </div>
+ </section>-->
 
-    <!-- Main Content Section -->
-    <div class="container">
-        <h1>Payment Form</h1>
-        <p>Please enter your payment details to complete the purchase:</p>
-<form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_PNlbhDOpYdnYbn" async> </script> </form>
 
 
- <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_PNzdAURY3oFDxU" async> </script> </form>       
-        <!-- Embed Payment Processor in iframe
-        <iframe src="https://tally.so/r/wv0qGv" title="Payment Page"></iframe>-->
+<div class="rectangle4">
+    
+    <div class="services-container">
+        <h1 class="myintrest"><span class="highlight">AVAILABLE
+        </span> CLUBS</h1>
+        <div class="services-box">
 
-        <p>If you encounter any issues, please contact support.</p>
-    </div>
+            
+            <h3>Project and Innovation Club</h3>
+            <p>A solid foundation in UI/UX and web development. I love combining creativity with technical skills to bring ideas to life. Growing on to c,c++,java,python,sql many soon</p>
+          
+            </p>
 
+            
+        </div>
+        <div class="services-box">
+          
+            <h3>Yuva Sādhvi Club (only girls)</h3>
+            <p>I'm not just a gamer; I also dive into game development and 3D modeling, exploring the creative side of gaming from the ground up.</p>
+           
+        </div>
+        <div class="services-box">
+           
+            <h3>Dream Achievers Club</h3>
+            <p>I’m a solid editor with a good sense for details always learning and growing my skills along the way </p>
+           
+        </div>
+
+        <div class="services-box">
+           
+            <h3>Adeptorators Club</h3>
+            <p>I’m a solid editor with a good sense for details always learning and growing my skills along the way </p>
+           
+        </div>
+        
+        <div class="services-box">
+           
+            <h3>Holocode Club</h3>
+            <p>I’m a solid editor with a good sense for details always learning and growing my skills along the way </p>
+           
+        </div>
+        <form>
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" 
+                    data-payment_button_id="pl_PNzdAURY3oFDxU" async>
+            </script>
+        </form>
+    
+    </div>    
+
+    
+   
+
+  
+   
+   
+    <script src="script.js"></script>
+    
 </body>
+
 </html>
